@@ -45,12 +45,12 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-img, .skills-container, .projects-container,.certifications-container,.eca-achievements-container, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Full-Stack Developer', 'B.Tech Student'],
+    strings: ['Full-Stack Developer', 'Frontend Developer', 'Backend Developer', 'B.Tech Student'],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 1000,
